@@ -8,4 +8,6 @@ public interface BoardDAO {
 
 	public List list() throws Exception;
 
+	// 게시물 작성
+	public void write(BoardVO vo) throws Exception;
 }

@@ -24,4 +24,10 @@ public class BoardDAOImpl implements BoardDAO {
 		return sql.selectList(namespace + ".list");
 	}
 
+	@Override
+	public void write(BoardVO vo) throws Exception {
+		// TODO Auto-generated method stub
+		sql.insert(namespace + ".write", vo);
+	}
+
 }
