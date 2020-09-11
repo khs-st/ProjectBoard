@@ -17,6 +17,9 @@
 
 		<button type="submit">작성</button>
 
+		<div id="nav2">
+			<%@ include file="../include/nav2.jsp"%>
+		</div>
 	</form>
 </body>
 </html>

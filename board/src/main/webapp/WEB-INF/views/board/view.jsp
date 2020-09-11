@@ -8,6 +8,7 @@
 <title>게시물 조회</title>
 </head>
 <body>
+
 	<form method="post">
 
 		<label>제목</label>${view.title}<br /> <label>작성자</label>${view.writer}<br />
@@ -16,7 +17,9 @@
 		<div>
 			<a href="/board/modify?bno=${view.bno}">게시물 수정</a>
 		</div>
-
+		<div id="nav2">
+			<%@ include file="../include/nav2.jsp"%>
+		</div>
 	</form>
 </body>
 </html>
